@@ -1,0 +1,127 @@
+=== INÍCIO DOS TESTES ===
+
+Criando lista com capacidade 5...
+
+Lista atual: [ ]
+
+---
+
+## TESTE addLast
+
+Adicionando 10...
+Lista atual: [ 10 ]
+
+Adicionando 20...
+Lista atual: [ 10 20 ]
+
+Adicionando 30...
+Lista atual: [ 10 20 30 ]
+
+---
+
+## TESTE addFirst
+
+Adicionando 5 no início...
+Lista atual: [ 5 10 20 30 ]
+
+---
+
+## TESTE insertAt
+
+Inserindo 15 na posição 2...
+Lista atual: [ 5 10 15 20 30 ]
+
+Tentando inserir com lista cheia...
+Erro: Lista cheia!
+
+---
+
+## TESTE addSorted
+
+Criando nova lista ordenada...
+
+Adicionando 20...
+Lista atual: [ 20 ]
+
+Adicionando 10...
+Lista atual: [ 10 20 ]
+
+Adicionando 30...
+Lista atual: [ 10 20 30 ]
+
+Adicionando 25...
+Lista atual: [ 10 20 25 30 ]
+
+---
+
+## TESTE removeLast
+
+Removendo último elemento...
+Lista atual: [ 5 10 15 20 ]
+
+---
+
+## TESTE removeFirst
+
+Removendo primeiro elemento...
+Lista atual: [ 10 15 20 ]
+
+---
+
+## TESTE removeAt
+
+Removendo elemento na posição 1...
+Lista atual: [ 10 20 ]
+
+---
+
+## TESTE remove (por valor)
+
+Removendo valor 20...
+Item 20 removido com sucesso.
+Lista atual: [ 10 ]
+
+Tentando remover valor inexistente (50)...
+Erro: Item 50 não encontrado na lista.
+
+---
+
+## TESTE find
+
+Buscando valor 10...
+Encontrado na posição: 0
+
+Buscando valor 99...
+Resultado: -1 (não encontrado)
+
+---
+
+## TESTE get
+
+Obtendo elemento da posição 0...
+Valor: 10
+
+Tentando acessar índice inválido...
+Erro: Índice 5 fora dos limites.
+
+---
+
+## TESTE set
+
+Alterando posição 0 para 99...
+Lista atual: [ 99 ]
+
+---
+
+## TESTE isEmpty / isFull
+
+Lista está vazia? false
+Lista está cheia? false
+
+---
+
+## TESTE FINAL
+
+Lista atual: [ 99 ]
+
+=== FIM DOS TESTES ===
